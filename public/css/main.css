@@ -1,0 +1,384 @@
+/*
+****************************
+Proyecto Final: E-Commerce
+
+-Ambar Farias
+
+****************************
+*/
+
+
+
+
+
+
+
+/* 
+*******************************
+*******************************
+            GENERAL             
+*******************************
+*******************************
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+/* 
+*******************************
+*******************************
+            Mobile             
+*******************************
+*******************************
+*/
+
+.section__title {
+    color:rgb(46, 39, 28);
+    width: 100%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+
+main > section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0%;
+}
+
+
+
+
+/* 
+*******************************
+*******************************
+            HEADER             
+*******************************
+*******************************
+*/
+
+header{
+    width: 100%;
+}
+
+
+.navbar-expand-lg{
+    background-color: rgb(255, 244, 230);
+}
+
+header .navbar-brand{
+    font-weight: bold;
+}
+
+
+
+
+
+/* 
+*******************************
+*******************************
+            CAROUSEL          
+*******************************
+*******************************
+*/
+
+
+header > .carousel{
+    height: 80%;
+}
+
+header > .carousel-inner{
+    height: 100%;
+}
+header > .carosuel-item{
+    height: 100%;
+}
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/* 
+*******************************
+*******************************
+            ABOUT             
+*******************************
+*******************************
+*/
+
+
+
+#section__about{
+    background-color: rgb(245, 233, 209);
+}
+
+.section__text{
+    color:rgb(46, 39, 28);
+    width: 80%;
+    margin: 1% 0%;
+    text-align: justify;
+}
+
+
+/* 
+*******************************
+*******************************
+            MINI-INFO             
+*******************************
+*******************************
+*/
+
+#section__info{
+    background-color: rgb(247, 226, 201);
+}
+
+.purchase__info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.purchase__item-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.purchase__item-subtitle{
+    font-weight: 300;
+}
+
+.purchase__item-icon{
+    width: 100%;
+}
+
+/* 
+**************************
+**************************
+        TOP ITEMS             
+**************************
+**************************
+*/
+
+#section__top__items{
+    background-color: rgb(255, 241, 210);
+}
+
+
+/* 
+****************************
+****************************
+        ALL PRODUCTS             
+****************************
+****************************
+*/
+
+#section__products{
+    background-color: rgb(243, 222, 183);
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+
+
+#breakfast{
+    margin-right: 0%!important;
+}
+
+.category__item{
+    padding: 10% 50%;
+}
+
+.col-12 .col{
+    width: 50%;
+}
+
+.card-title{
+    font-size: 25px;
+}
+
+.price{
+    font-size: 23px;
+}
+
+.card-text-item{
+    font-size: 20px;
+}
+
+
+/* 
+*******************************
+*******************************
+            CONTACT             
+*******************************
+*******************************
+*/
+
+
+
+#section__contact{
+    background-color: rgb(219, 198, 156);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+.payment__icon{
+    width: 20%;
+    height: 10%;
+    margin: 0px 5px 14px 0px;
+}
+
+.contact__shipment{
+    margin-top: 6%;
+}
+
+.send__icons{
+    width: 25%;
+    height: 10%;
+    margin: 0px 5px 0px 0px;
+}
+
+.socialmedia__icons{
+    width: 10%;
+    height: 10%;
+    margin-right: 10px;
+}
+
+.contacts__icons{
+    width: 100%;
+    height: 10%;
+}
+
+.contact__items__title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-list{
+    padding-left: 0;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-list .contacts__icons {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.contact-list .info {
+    flex: 1 1 auto;
+    font-size: small;
+}
+
+/* 
+*******************************
+*******************************
+            FOOTER             
+*******************************
+*******************************
+*/
+
+
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(12, 6, 2);
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+*******************************
+*******************************
+            Tablet          
+*******************************
+*******************************
+*/
+
+@media (max-width: 768px){
+    
+
+.col-12 .col{
+    width: 43.3%;
+}
+
+.card-title{
+    font-size: 17px;
+}
+
+.card-text-item{
+    font-size: 15px;
+}
+
+}
+
+
+
+/* 
+*******************************
+*******************************
+            Desktop             
+*******************************
+*******************************
+*/
+
+
+
+@media (min-width:1024px){
+
+
+main > section {
+    justify-content: space-around;
+}
+
+
+.col-12 .col{
+    width: 25%;
+}
+
+.card-title{
+    font-size: 15px;
+}
+
+.price{
+    font-size: 15px;
+}
+
+.card-text-item{
+    font-size: 13px;
+}
+
+
+}
